@@ -1,2 +1,2 @@
 #!/bin/bash
-openssl rand -base64 48 | tr -dc '[:alnum:]' | head -c"${1:-16}"
+cat /dev/urandom | tr -dc '[:alnum:]' | fold -w $1| head -n 1
