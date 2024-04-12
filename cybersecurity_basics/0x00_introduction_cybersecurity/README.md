@@ -1,0 +1,1 @@
+a bash script that display the distributor ID in a concise single-line output.
