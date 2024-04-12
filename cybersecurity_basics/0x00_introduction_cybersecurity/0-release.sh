@@ -1,3 +1,2 @@
 #!/bin/bash
-distributor=$(lsb_release -is)
-echo "$distributor"
+echo "$(lsb_release -is)"
