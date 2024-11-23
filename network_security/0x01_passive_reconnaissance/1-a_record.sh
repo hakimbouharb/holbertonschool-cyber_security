@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(nslookup $1 | grep 'Address' | awk '{print $2}')
+nslookup -type=A $1 | awk 'NR>2 {print $2}'
