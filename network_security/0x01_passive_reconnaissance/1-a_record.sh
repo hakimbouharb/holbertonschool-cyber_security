@@ -1,2 +1,2 @@
 #!/bin/bash
-nslookup $1 | grep 'Address' | awk '{print $2}'
+echo $(nslookup $1 | grep 'Address' | awk '{print $2}')
