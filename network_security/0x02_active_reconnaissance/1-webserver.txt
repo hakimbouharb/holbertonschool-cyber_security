@@ -1,1 +1,1 @@
-Ngnix1.18.0
+Ngnix1
